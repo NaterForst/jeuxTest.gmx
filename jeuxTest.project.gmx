@@ -18,15 +18,17 @@
       <sprite>sprites\spr_Player_crunch_left</sprite>
       <sprite>sprites\spr_Player_down</sprite>
       <sprite>sprites\spr_Player_crunch_right</sprite>
+      <sprite>sprites\spr_dark_pnf</sprite>
     </sprites>
-    <sprite>sprites\spr_map</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\ob_Player</object>
     <object>objects\ob_camera</object>
-    <object>objects\ob_map</object>
+    <object>objects\ob_dark_pnj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_map</room>
